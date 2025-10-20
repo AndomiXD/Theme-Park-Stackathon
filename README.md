@@ -7,7 +7,7 @@
 
 # Theme-Park-Stackathon
 #### Mini Hackathon for a Theme Park project:-
-Roller-dat-coaster is a website that shows roller coasters to users, where they can also add their own roller coasters or delete them, in addition to seeing the details of a roller coaster, they are able to add comments on a selected roller coaster.
+Roller-dat-coaster is a MERN-stack website that shows roller coasters to users, where they can also add their own roller coasters or delete them, in addition to seeing the details of a roller coaster, they are able to add comments on a selected roller coaster.
 
 
 
@@ -34,4 +34,5 @@ Roller-dat-coaster is a website that shows roller coasters to users, where they 
 
 ### ***Screenshots***
 
-![React Diagram](<React-Diagram.png>)
+![React Diagram](<images/React-Diagram.png>)
+![ERD](<images/ERD.png>)
