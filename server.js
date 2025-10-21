@@ -37,9 +37,9 @@ app.use(logger("dev"))
 
 app.use("/coasters", coasterRouter)
 
-app.use("/", (req, res) => {
-  res.send(`Welcome!`)
-})
+// app.use("/", (req, res) => {
+//   res.send(`Welcome!`)
+// })
 
 app.listen(PORT, () => {
   console.log(`Express Server Running on Port`, PORT, `. . .`)

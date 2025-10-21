@@ -11,13 +11,21 @@ const GetCoasters = async (req, res) => {
 
 const CreateCoaster = async (req, res) => {
   try {
-    const coaster = await Coaster.create(req.body)
-    res.status(200).send(coaster)
+    const coasters = await Coaster.create(req.body)
+    res.status(200).send(coasters)
   } catch (error) {
     throw error
   }
 }
 
+const GetOneCoaster = async (req, res) => {
+  try {
+    const coaster = await Coaster.findById(req.params._id)
+    res.status(200).send(coaster)
+  } catch (error) {
+    throw error
+  }
+}
 // const DeletePost = async (req, res) => {
 //   try {
 //     await Post.deleteOne({ _id: req.params.id })
@@ -30,5 +38,6 @@ const CreateCoaster = async (req, res) => {
 module.exports = {
   GetCoasters,
   CreateCoaster,
+  GetOneCoaster,
   // DeletePost,
 }
