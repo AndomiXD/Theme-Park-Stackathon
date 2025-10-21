@@ -1,4 +1,5 @@
-# Project Title: Theme-Park-Stackathon
+# BACKEND
+# Project Title:  Theme-Park-Stackathon
 ## Date: 10/1/2025
 ### By: Munem Alkhalaf, Fatima Mohamed
 
@@ -34,5 +35,4 @@ Roller-dat-coaster is a MERN-stack website that shows roller coasters to users, 
 
 ### ***Screenshots***
 
-![React Diagram](<images/React-Diagram.png>)
 ![ERD](<images/ERD.png>)
