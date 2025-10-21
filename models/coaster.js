@@ -6,8 +6,12 @@ const coasterSchema = new Schema(
     details: { type: String, required: true },
     price: { type: Number, required: true },
     img: { type: String },
-    comment: { type: String },
-    rating: { type: Number },
+    reviews: [
+      {
+        comment: { type: String, required: true },
+        rating: { type: Number, required: true },
+      },
+    ],
   },
   { timestamps: true }
 )
